@@ -1,4 +1,4 @@
-# Zim–Zam Virome Analysis Code
+# Zimbabwe–Zambia Virome Analyses
 
 This repository contains the reproducible R and Python code used for the Zim–Zam microbiome and virome analyses. **No raw data, intermediate files, final results, or figures are included.** Input files must be obtained separately and supplied locally when running the scripts.
 
