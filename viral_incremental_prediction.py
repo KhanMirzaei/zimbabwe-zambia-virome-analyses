@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""End-to-end Figure 5E virome machine-learning pipeline.
+"""Estimate the incremental predictive value of viral features.
 
 Place these four source files in one directory (filenames can be overridden):
 
@@ -8,7 +8,7 @@ Place these four source files in one directory (filenames can be overridden):
 * Zim_Zam_SCFA_BA_v2.xlsx              metabolite measurements
 * OTUs-Table_Zim_Zam.txt               bacterial OTU table
 
-For each metabolite, this script compares ridge-regression models based on
+For each metabolite, the script compares ridge-regression models based on
 bacterial abundances, viral abundances, and both abundance blocks. Performance
 is estimated with repeated nested cross-validation. The quantity of interest is
 

@@ -46,7 +46,8 @@ The script accepts the three input files and an output location as command-line 
 
 ```bash
 python path/to/viral_incremental_prediction.py \
-  --viral-file /path/to/viral_file.xlsx \
+  --three-files-only \
+  --tpm-file /path/to/viral_tpm_file.xlsx \
   --bacterial-file /path/to/bacterial_file.txt \
   --metabolite-file /path/to/metabolite_file.xlsx \
   --output-dir /path/to/results
