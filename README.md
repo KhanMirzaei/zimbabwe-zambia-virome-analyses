@@ -4,7 +4,7 @@ This repository contains the reproducible R and Python code used for the Zim–Z
 
 ## R analyses
 
-The R scripts cover the following broad analysis categories:
+The R script is named `viral_profile_characterization.R` and covers the following broad analysis categories:
 
 ### Diversity assessment and community composition
 
@@ -26,9 +26,9 @@ Rscript path/to/script.R
 
 ## Python analyses
 
-### Incremental predictive value of viral features
+### Viral incremental predictive value analysis
 
-The Python machine-learning workflow evaluates whether viral features improve prediction of fecal metabolite concentrations beyond bacterial features alone.
+The Python script `viral_incremental_prediction.py` evaluates whether viral features improve prediction of fecal metabolite concentrations beyond bacterial features alone.
 
 For each metabolite, the workflow compares:
 
@@ -45,7 +45,7 @@ Delta R-squared = R-squared(combined model) - R-squared(bacteria-only model)
 The script accepts the three input files and an output location as command-line arguments. Example:
 
 ```bash
-python path/to/figure5e_ml_reduced_features.py \
+python path/to/viral_incremental_prediction.py \
   --viral-file /path/to/viral_file.xlsx \
   --bacterial-file /path/to/bacterial_file.txt \
   --metabolite-file /path/to/metabolite_file.xlsx \
