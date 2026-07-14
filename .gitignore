@@ -2,8 +2,12 @@
 __pycache__/
 *.pyc
 node_modules/
+node_modules
 ml_test_output/
 ml_workbook_previews/
+figure5e_ml_*.py
+inspect_ml_workbooks.mjs
+qa_ml_inputs.py
 *.xlsx
 *.xls
 *.txt
