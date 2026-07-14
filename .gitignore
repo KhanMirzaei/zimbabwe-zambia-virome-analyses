@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+ml_test_output/
+ml_workbook_previews/
+*.xlsx
+*.xls
+*.txt
+*.csv
+*.pdf
+*.png
+*.rds
+.venv/
