@@ -1,29 +1,6 @@
-#!/usr/bin/env python3
+## Author: Mohammadali Khan Mirzaei 
+
 """Estimate the incremental predictive value of viral features.
-
-Place these four source files in one directory (filenames can be overridden):
-
-* Zim-Zam.xlsx                         authoritative virome table
-* TPM_filtered_nonzero_contigs.xlsx    viral TPM abundance matrix
-* Zim_Zam_SCFA_BA_v2.xlsx              metabolite measurements
-* OTUs-Table_Zim_Zam.txt               bacterial OTU table
-
-For each metabolite, the script compares ridge-regression models based on
-bacterial abundances, viral abundances, and both abundance blocks. Performance
-is estimated with repeated nested cross-validation. The quantity of interest is
-
-    delta R2 = R2(bacteria + virus) - R2(bacteria only)
-
-Prevalence filtering, pseudocount estimation, CLR transformation, feature
-standardization, and alpha selection are learned from training data only.
-The same outer and inner splits are used for all three model types.
-
-The script validates TPM values and their contig mapping to the authoritative
-virome table, normalizes sample labels (Zi -> Zim, Za -> Zam, removes "_R" and
-whitespace), writes matched intermediate files, runs the analysis, and creates
-the final CSV and figure outputs. Duplicate cleaned sample names are averaged.
-Duplicate microbial features are summed; duplicate metabolites are averaged.
-"""
 
 from __future__ import annotations
 
