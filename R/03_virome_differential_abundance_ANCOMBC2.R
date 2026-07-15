@@ -1,4 +1,4 @@
-#!/usr/bin/env Rscript
+## Author: Mohammadali Khan Mirzaei 
 
 suppressPackageStartupMessages({
   library(readxl)
