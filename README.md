@@ -1,6 +1,6 @@
 # Zimbabwe–Zambia Virome Analyses
 
-Code used for the virome analyses in the Zimbabwe–Zambia manuscript. No data, intermediate files, results, or figures are included.
+Code used for the virome analyses in the Zimbabwe–Zambia manuscript. 
 
 ## Files
 
